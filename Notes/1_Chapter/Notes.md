@@ -11,3 +11,31 @@ Package manager for python.Used to install modules.
 ## REPL
 > Read Evaluate Print Loop
 
+## Comments in python
+- Single Line comment
+``` python
+# this is a single line comment
+```
+- Multi Line comment
+
+``` python
+""" this is  multi line comment 
+you can write multiple lines """
+print("Hello")
+```
+
+
+## Printing types
+
+- Single line print
+``` python
+print("Hello")
+```
+- Multi line print
+``` python
+print('''
+This is 
+Tejas
+Trivedi for you
+''')
+```
