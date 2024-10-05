@@ -7,7 +7,7 @@ PROPERTIES OF SETS
 3. Sets are unindexed => Cannot access elements by index
 4. There is no way to change items in sets.
 5. Sets cannot contain duplicate values.
-
+6. Sets should only contain datatypes that are immutable and hashable
 '''
 
 s = {12,12,12,5,5,51,5,32}
