@@ -6,8 +6,11 @@ def game():
             f.write(str(score))
         else:
             if(int(data)<score):
+                print("You created a new high score")
                 f.seek(0)
                 f.write(str(score))
                 f.truncate()
+            else:
+                print(f"the preious highscore is {data}")
 
 game()
